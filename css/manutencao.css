@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Actor&family=Roboto+Condensed&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(90deg, #0a090a 0%, #181719 47.57%, #36343b 126.85%, #39363d 126.85%);
+  border-bottom: 18px solid #8257e5;
+}
+
+header {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+
+header img {
+  width: 55vh;
+  height: 30vh;
+  margin-bottom: 3vh;
+}
+
+header .menu-nav {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header .menu-nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 2vh 3vh;
+  font-family: Actor, sans-serif;
+  border: 4px solid #8122ae;
+  border-radius: 30px;
+}
+
+header .menu-nav a:hover {
+  background-color: #8122ae;
+  transition: 200ms;
+}
+
+.inscreva-se {
+  background-color: #8122ae;
+}
+
+.inscreva-se:hover {
+  transform: scale(1.1);
+  transition: 200ms;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+main h1 {
+  width: 50%;
+  text-align: center;
+  color: #fff;
+  font-family: Actor, sans-serif;
+  font-weight: 300;
+  margin-top: 10vh;
+}
+
+main a {
+  border: none;
+  border-radius: 30px;
+  background-color: #8122ae;
+  color: #fff;
+  padding: 2.5vh 8vh;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: Actor, sans-serif;
+  margin-top: 4vh;
+}
