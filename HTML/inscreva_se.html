@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>inscreva-se</title>
+    <link rel="stylesheet" href="../css/inscreva_se.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="links">
+          <a href="./index.html">Home</a>
+          <a href="./sobre_nos.html">Sobre</a>
+          <a href="./fora_do_ar.html">Serviços</a>
+          <a href="./fora_do_ar.html">Contato</a>
+        </div>
+
+        <div class="inscreva-se">
+          <a href="./inscreva_se.html" class="botao-inscreva-se">INSCREVA-SE</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <form>
+        <h1>INSCREVA-SE JÁ NO NOSSO WEBINAR ONLINE!</h1>
+
+        <div class="container-form">
+          <div class="cadastro">
+            <label for="nome-completo">Nome Completo:</label>
+            <input type="text" name="nome-completo" id="nome-completo" required />
+
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" required />
+
+            <label for="telefone">Telefone:</label>
+            <input type="number" name="telefone" id="telefone" required />
+          </div>
+
+          <div class="termos-de-uso">
+            <input type="checkbox" id="checkbox" required />
+            <label for="checkbox">Declaro que li e aceito os Termos de Uso e Privacidade da Webnar Online.</label>
+          </div>
+
+          <input type="submit" value="INSCREVER-SE" class="botao-inscrever-se" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
