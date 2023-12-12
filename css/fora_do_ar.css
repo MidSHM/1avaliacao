@@ -28,17 +28,17 @@ header nav a {
 }
 
 header nav .links {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 65%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 65%;
 }
 
 header nav .inscreva-se {
-    width: 35%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .botao-inscreva-se {
@@ -53,38 +53,29 @@ header nav .inscreva-se {
 }
 
 main {
-  display: flex;
-}
-
-.lado-esquerdo {
+  height: 55vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  width: 50%;
-  height: 70vh;
+  align-items: center;
 }
 
-.lado-esquerdo h1 {
-  color: #965e1b;
+main h1 {
   font-family: Anaheim, sans-serif;
   font-weight: 300;
-  font-size: 4rem;
-  margin-bottom: 2rem;
+  color: #965e1b;
+  width: 50%;
   text-align: center;
 }
 
-.lado-esquerdo h2 {
-  font-size: 2rem;
+main .botao-voltar-pagina {
+  margin-top: 5vh;
+  background-color: #965e1b;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
   font-family: Anaheim, sans-serif;
-  text-align: justify;
-  width: 70%;
-}
-
-.lado-direito {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  height: 70vh;
+  padding: 2vh 4vh;
+  text-decoration: none;
 }

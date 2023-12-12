@@ -28,17 +28,17 @@ header nav a {
 }
 
 header nav .links {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 65%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 65%;
 }
 
 header nav .inscreva-se {
-    width: 35%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .botao-inscreva-se {
@@ -54,37 +54,31 @@ header nav .inscreva-se {
 
 main {
   display: flex;
-}
-
-.lado-esquerdo {
-  display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 50%;
-  height: 70vh;
 }
 
-.lado-esquerdo h1 {
+main h1 {
+  font-family: Anaheim, sans-serif;
+  font-size: 3rem;
   color: #965e1b;
+}
+
+main .paragrafos {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+main .paragrafos h2 {
+  width: 100%;
   font-family: Anaheim, sans-serif;
   font-weight: 300;
-  font-size: 4rem;
-  margin-bottom: 2rem;
-  text-align: center;
+  margin: 2vh 3vh;
 }
 
-.lado-esquerdo h2 {
-  font-size: 2rem;
-  font-family: Anaheim, sans-serif;
-  text-align: justify;
-  width: 70%;
-}
-
-.lado-direito {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  height: 70vh;
+main img {
+  width: 12%;
+  height: 26vh;
+  margin-top: 3vh;
 }

@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Actor&family=Anaheim&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 20vh;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 20vh;
+  font-family: Actor, sans-serif;
+}
+
+header nav a {
+  color: #2a4eaa;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+header nav .links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 65%;
+}
+
+header nav .inscreva-se {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botao-inscreva-se {
+  color: #fff;
+  background-color: #f46363;
+  font-family: Actor, sans-serif;
+  font-size: 1.6rem;
+  padding: 1.5vh 3vh;
+  border-radius: 30px;
+  text-decoration: none;
+  margin: 6vh 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  height: 80vh;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form h1 {
+  font-family: Anaheim, sans-serif;
+  color: #965e1b;
+  text-align: center;
+}
+
+form .container-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60vh;
+}
+
+form .cadastro {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+form .cadastro label {
+  font-family: Anaheim, sans-serif;
+  font-size: 1.3rem;
+  margin-top: 2vh;
+}
+form .cadastro input {
+  width: 100%;
+  height: 5vh;
+  border: none;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+  padding: 0 2vh;
+}
+
+.termos-de-uso {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vh;
+}
+
+.termos-de-uso input {
+  margin-right: 1vh;
+}
+
+.termos-de-uso label {
+  font-family: Anaheim, sans-serif;
+}
+
+.botao-inscrever-se {
+  width: 70%;
+  height: 5vh;
+  margin-top: 2vh;
+  background-color: #965e1b;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  padding: 1.5vh 0;
+}
